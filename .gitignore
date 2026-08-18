@@ -1,0 +1,6 @@
+# Obsidian 窗口布局（变动频繁，不建议同步）
+.obsidian/workspace.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
