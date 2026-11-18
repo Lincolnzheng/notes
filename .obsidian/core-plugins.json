@@ -4,7 +4,7 @@
   "switcher": true,
   "graph": true,
   "backlink": false,
-  "canvas": true,
+  "canvas": false,
   "outgoing-link": false,
   "tag-pane": true,
   "footnotes": false,
@@ -26,7 +26,7 @@
   "audio-recorder": false,
   "workspaces": true,
   "file-recovery": true,
-  "publish": true,
+  "publish": false,
   "sync": true,
   "bases": true,
   "webviewer": true
