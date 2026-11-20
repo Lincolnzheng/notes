@@ -126,14 +126,14 @@ build/
 
 ## 十二、常见场景速查
 
-| 场景 | 命令 |
-|---|---|
-| 改错了想丢弃某文件的修改 | `git restore <文件名>` |
-| 提交了但想撤销（保留改动） | `git reset --soft HEAD~1` |
-| 提交了想彻底撤销（丢弃改动） | `git reset --hard HEAD~1` |
-| 推送到远程被拒绝 | 先 `git pull`，解决冲突后再 `git push` |
-| 合并冲突了 | 手动改文件 → `git add .` → `git commit` |
-| 忘拉代码直接提交 | `git pull --rebase` 再 `git push` |
-| 暂时切分支又不想提交 | `git stash`，回来 `git stash pop` |
+| 场景             | 命令                                 |
+| -------------- | ---------------------------------- |
+| 改错了想丢弃某文件的修改   | `git restore <文件名>`                |
+| 提交了但想撤销（保留改动）  | `git reset --soft HEAD~1`          |
+| 提交了想彻底撤销（丢弃改动） | `git reset --hard HEAD~1`          |
+| 推送到远程被拒绝       | 先 `git pull`，解决冲突后再 `git push`     |
+| 合并冲突了          | 手动改文件 → `git add .` → `git commit` |
+| 忘拉代码直接提交       | `git pull --rebase` 再 `git push`   |
+| 暂时切分支又不想提交     | `git stash`，回来 `git stash pop`     |
 
 
